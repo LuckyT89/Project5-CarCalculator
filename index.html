@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Calculator</title>
+    <link href='styles.css' rel='stylesheet' />
+</head>
+<body>
+    <h1>Car Calculator</h1>
+    <p>Enter two of the three variables below to calculate the last one</p>
+
+    <form>
+        Which variable do you want to solve for?<br>
+        <input type='radio' id='downPayment' name='variable' value='downPayment' >
+        <label for='downPayment'>Down Payment</label>
+
+        <input type='radio' id='monthlyPayment' name='variable' value='monthlyPayment' >
+        <label for='monthlyPayment'>Monthly Payment</label>
+
+        <input type='radio' id='time' name='variable' value='time' >
+        <label for='time'>Time to Pay Off</label>
+    </form>
+
+    <h3 id='instructions'></h3>
+
+    <script src='car.js'></script>
+</body>
+</html>
